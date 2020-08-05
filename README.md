@@ -1,61 +1,51 @@
-# budget_tracker
+# Budget_Tracker WebApp
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+[Live App](https://cryptic-wildwood-44940.herokuapp.com/)
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+![GitHub repo size](https://img.shields.io/github/repo-size/MikelTafalla/budget_tracker?logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/MikelTafalla/budget_tracker?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/MikelTafalla/budget_tracker?color=green&logo=github&logoColor=green)
 
-Offline Functionality:
+Track your expenses and deposits with our budget_tracker App. You'll be able to track your transactions even offline. When your app goes back online it will update all your information.
 
-  * Enter deposits offline
+This app can be used as a browser app or native app.
 
-  * Enter expenses offline
+# Technologies Used
 
-When brought back online:
+1. mongoDB with mongoose
+2. Node.js
+3. Express
+4. Javascript
+5. HTML, CSS, Bootstrap
+6. Morgan
+7. IndexDB
+8. Webmanifest / service-workers
 
-  * Offline entries should be added to tracker.
+# Table of Contents
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+* [Installation](#installation)
+* [Instructions](#instructions)
+* [Example Gif](#example-gif)
+* [Author](#author)
 
-## Business Context
+## Installation
+> 1.npm install
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+## Instructions
+> Open your browser and go to [budget_tracker](https://cryptic-wildwood-44940.herokuapp.com/). From there, start adding your transactions and see your budget. You'll have access to graphs that explain your transactions. 
+If you'd like to use this app as a native app and not in the browser, go to chrome tools and click "install budget_tracker".
 
+## Example Gif
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+![](public/images/budgetgif.gif)
 
-- - -
+## Author 
 
-## Commit Early and Often
+**MikelTafalla**
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Email: mikel362d@gmail.com
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+Location: Santa Barbara
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
+GitHub: https://github.com/MikelTafalla
 
